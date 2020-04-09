@@ -1,0 +1,70 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  color: #494949;
+  margin: 0px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #636363;
+  font-size: 28px;
+  font-style: italic;
+  background-color: rgba(233, 253, 240, 1);
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+.banner {
+  background-image: url("media/banner.jpeg");
+  background-size: cover;
+  margin: 0;
+  padding: 120px 0;
+  color: white;
+  line-height: 60px;
+}
+
+.banner p {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
